@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  shoppingList
 //
-//  Created by Ann Goncharova on 09.07.2024.
+//  Created by Anna Goncharova on 09.07.2024.
 //
 
 import UIKit
