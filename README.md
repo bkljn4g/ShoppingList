@@ -23,7 +23,7 @@ target 'YourAppTargetName' do
   pod 'SwiftLint'
   pod 'SwiftGen'
   
-```end
+end
 
 - ``pod install``  
 - открывать проект через xcworkspace
