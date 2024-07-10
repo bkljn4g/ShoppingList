@@ -11,8 +11,9 @@
 
 Для установки подов необходимо зайти в корневую папку проекта и через терминал добавить Podfile  
 - ``pod init``
+- открыть файл и добавить туда следующее:
 
-``platform :ios, '13.0'
+```platform :ios, '13.0'
 
 target 'YourAppTargetName' do
   use_frameworks!
@@ -22,4 +23,4 @@ target 'YourAppTargetName' do
   pod 'SwiftLint'
   pod 'SwiftGen'
   
-end``
+end```
