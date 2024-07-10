@@ -13,7 +13,7 @@
 - ``pod init``
 - открыть Podfile в редакторе и добавить туда следующее:
 
-`[platform :ios, '13.0'
+```platform :ios, '13.0'
 
 target 'YourAppTargetName' do
   use_frameworks!
@@ -23,7 +23,7 @@ target 'YourAppTargetName' do
   pod 'SwiftLint'
   pod 'SwiftGen'
   
-end]`
+```end
 
 - ``pod install``  
 - открывать проект через xcworkspace
