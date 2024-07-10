@@ -7,17 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		15C2EF67EDAC151A1EB05BA1 /* Pods_shoppingList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79644F36C4A9F4C16587CA6A /* Pods_shoppingList.framework */; };
 		8919FEF02C3D72560055F52F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919FEEF2C3D72560055F52F /* AppDelegate.swift */; };
 		8919FEF22C3D72560055F52F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919FEF12C3D72560055F52F /* SceneDelegate.swift */; };
 		8919FEF42C3D72560055F52F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8919FEF32C3D72560055F52F /* ViewController.swift */; };
 		8919FEF72C3D72560055F52F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8919FEF62C3D72560055F52F /* Base */; };
 		8919FEF92C3D72570055F52F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8919FEF82C3D72570055F52F /* Assets.xcassets */; };
 		8919FEFC2C3D72570055F52F /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 8919FEFB2C3D72570055F52F /* Base */; };
-		8919FF052C3DA8760055F52F /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 8919FF042C3DA8760055F52F /* SnapKit */; };
-		8919FF072C3DA8760055F52F /* SnapKit-Dynamic in Frameworks */ = {isa = PBXBuildFile; productRef = 8919FF062C3DA8760055F52F /* SnapKit-Dynamic */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		048FAD4C56A70A264B40F3A2 /* Pods-shoppingList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingList.release.xcconfig"; path = "Target Support Files/Pods-shoppingList/Pods-shoppingList.release.xcconfig"; sourceTree = "<group>"; };
+		67D4427E6FF121DCA9798F7F /* Pods-shoppingList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-shoppingList.debug.xcconfig"; path = "Target Support Files/Pods-shoppingList/Pods-shoppingList.debug.xcconfig"; sourceTree = "<group>"; };
+		79644F36C4A9F4C16587CA6A /* Pods_shoppingList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_shoppingList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8919FEEC2C3D72560055F52F /* shoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = shoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8919FEEF2C3D72560055F52F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8919FEF12C3D72560055F52F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -33,8 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8919FF052C3DA8760055F52F /* SnapKit in Frameworks */,
-				8919FF072C3DA8760055F52F /* SnapKit-Dynamic in Frameworks */,
+				15C2EF67EDAC151A1EB05BA1 /* Pods_shoppingList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +47,8 @@
 			children = (
 				8919FEEE2C3D72560055F52F /* shoppingList */,
 				8919FEED2C3D72560055F52F /* Products */,
+				BF3C8D38FBC23675B8C35EF3 /* Pods */,
+				F926C9071B9042A0F9B93A13 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +74,23 @@
 			path = shoppingList;
 			sourceTree = "<group>";
 		};
+		BF3C8D38FBC23675B8C35EF3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				67D4427E6FF121DCA9798F7F /* Pods-shoppingList.debug.xcconfig */,
+				048FAD4C56A70A264B40F3A2 /* Pods-shoppingList.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F926C9071B9042A0F9B93A13 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79644F36C4A9F4C16587CA6A /* Pods_shoppingList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,19 +98,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8919FF002C3D72570055F52F /* Build configuration list for PBXNativeTarget "shoppingList" */;
 			buildPhases = (
+				7317149393E74CA21A568285 /* [CP] Check Pods Manifest.lock */,
 				8919FEE82C3D72560055F52F /* Sources */,
 				8919FEE92C3D72560055F52F /* Frameworks */,
 				8919FEEA2C3D72560055F52F /* Resources */,
+				D24D84C6FFFCB0630BE927B8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = shoppingList;
-			packageProductDependencies = (
-				8919FF042C3DA8760055F52F /* SnapKit */,
-				8919FF062C3DA8760055F52F /* SnapKit-Dynamic */,
-			);
 			productName = shoppingList;
 			productReference = 8919FEEC2C3D72560055F52F /* shoppingList.app */;
 			productType = "com.apple.product-type.application";
@@ -119,9 +137,6 @@
 				Base,
 			);
 			mainGroup = 8919FEE32C3D72560055F52F;
-			packageReferences = (
-				8919FF032C3DA8760055F52F /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			productRefGroup = 8919FEED2C3D72560055F52F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -143,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7317149393E74CA21A568285 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-shoppingList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D24D84C6FFFCB0630BE927B8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shoppingList/Pods-shoppingList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-shoppingList/Pods-shoppingList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-shoppingList/Pods-shoppingList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		8919FEE82C3D72560055F52F /* Sources */ = {
@@ -298,6 +355,7 @@
 		};
 		8919FF012C3D72570055F52F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67D4427E6FF121DCA9798F7F /* Pods-shoppingList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -306,26 +364,34 @@
 				DEVELOPMENT_TEAM = C4V8632ZYT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = shoppingList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shopping List";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shoppingList.shoppingList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkljn4g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8919FF022C3D72570055F52F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 048FAD4C56A70A264B40F3A2 /* Pods-shoppingList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -334,21 +400,28 @@
 				DEVELOPMENT_TEAM = C4V8632ZYT;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = shoppingList/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Shopping List";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.shopping";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shoppingList.shoppingList;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bkljn4g;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -374,30 +447,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		8919FF032C3DA8760055F52F /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.7.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		8919FF042C3DA8760055F52F /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8919FF032C3DA8760055F52F /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-		8919FF062C3DA8760055F52F /* SnapKit-Dynamic */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 8919FF032C3DA8760055F52F /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = "SnapKit-Dynamic";
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8919FEE42C3D72560055F52F /* Project object */;
 }
