@@ -24,6 +24,7 @@ target 'YourAppTargetName' do
   pod 'SwiftGen'
   
 end
+```
 
 - ``pod install``  
 - открывать проект через xcworkspace
